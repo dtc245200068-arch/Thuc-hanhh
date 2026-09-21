@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+body > p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.important {
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: white;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
