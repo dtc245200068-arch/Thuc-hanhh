@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng trong CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            height: 50px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            height: 50px;
+            text-align: left;
+            vertical-align: bottom;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Danh sách học sinh</h1>
+
+    <table>
+        <tr>
+            <th>STT</th>
+            <th>Họ và tên</th>
+            <th>Tuổi</th>
+            <th>Lớp</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Văn An</td>
+            <td>18</td>
+            <td>12A1</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Trần Thị Bình</td>
+            <td>17</td>
+            <td>11A2</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Lê Văn Cường</td>
+            <td>18</td>
+            <td>12A3</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Phạm Thị Dung</td>
+            <td>16</td>
+            <td>10A1</td>
+        </tr>
+    </table>
+
+</body>
+</html>
