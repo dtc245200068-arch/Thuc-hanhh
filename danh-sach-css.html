@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách trong CSS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Danh sách không có thứ tự */
+        .list-circle {
+            list-style-type: circle;
+        }
+
+        .list-square {
+            list-style-type: square;
+        }
+
+        /* Danh sách có thứ tự */
+        .list-roman {
+            list-style-type: upper-roman;
+        }
+
+        .list-alpha {
+            list-style-type: lower-alpha;
+        }
+
+        /* Vị trí dấu đầu dòng */
+        .list-inside {
+            list-style-position: inside;
+        }
+
+        .list-outside {
+            list-style-position: outside;
+        }
+
+        /* Thuộc tính rút gọn */
+        .list-short {
+            list-style: square inside;
+        }
+
+        /* Danh sách có màu sắc */
+        .color-list {
+            background-color: lightblue;
+            padding: 20px 40px;
+        }
+
+        .color-list li {
+            background-color: lightyellow;
+            color: blue;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Danh sách trong CSS</h1>
+
+    <h2>1. Danh sách kiểu Circle</h2>
+
+    <ul class="list-circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+
+    <h2>2. Danh sách kiểu Square</h2>
+
+    <ul class="list-square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+
+    <h2>3. Danh sách số La Mã</h2>
+
+    <ol class="list-roman">
+        <li>Học HTML</li>
+        <li>Học CSS</li>
+        <li>Học JavaScript</li>
+    </ol>
+
+
+    <h2>4. Danh sách chữ cái</h2>
+
+    <ol class="list-alpha">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+
+    <h2>5. List Style Position - Inside</h2>
+
+    <ul class="list-inside">
+        <li>Danh sách sử dụng vị trí inside</li>
+        <li>Dấu đầu dòng nằm bên trong nội dung</li>
+    </ul>
+
+
+    <h2>6. List Style Position - Outside</h2>
+
+    <ul class="list-outside">
+        <li>Danh sách sử dụng vị trí outside</li>
+        <li>Dấu đầu dòng nằm bên ngoài nội dung</li>
+    </ul>
+
+
+    <h2>7. Thuộc tính List Style rút gọn</h2>
+
+    <ul class="list-short">
+        <li>Sản phẩm 1</li>
+        <li>Sản phẩm 2</li>
+        <li>Sản phẩm 3</li>
+    </ul>
+
+
+    <h2>8. Danh sách với màu sắc</h2>
+
+    <ul class="color-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+</html> 
